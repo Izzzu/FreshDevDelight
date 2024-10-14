@@ -1,0 +1,78 @@
+{
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "plantuml.server": "http://localhost:8080/",
+    "plantuml.render": "PlantUMLServer",
+    "workbench.sideBar.location": "left",
+    "editor.renderWhitespace": "all",
+    "git.suggestSmartCommit": false,
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "codeQL.telemetry.enableTelemetry": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 1,
+    "explorer.confirmDragAndDrop": false,
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "markdownlint.config": {},
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.linux": "/home/vscode/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.kubectl-path.linux": "/home/vscode/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path.linux": "/home/vscode/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vs-kubernetes.minikube-show-information-expiration": "2024-09-10T13:52:53.027Z"
+    },
+    "azureFunctions.showProjectWarning": false,
+    "plantuml.jarArgs": [],
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "is:open assignee:${user} repo:${owner}/${repository}",
+            "groupBy": [
+                "milestone"
+            ]
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Recent Issues",
+            "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ],
+    "powershell.promptToUpdatePowerShell": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.settings.applyToAllProfiles": [
+        "csharp.semanticHighlighting.enabled"
+    ],
+    "editor.semanticHighlighting.enabled": true,
+    "csharp.semanticHighlighting.enabled": true,
+    "[csharp]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.inlineSuggest.suppressSuggestions": false
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true
+    },
+    "workbench.colorTheme": "Darcula",
+    "jupyter.debugJustMyCode": false,
+    "debugpy.debugJustMyCode": false,
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 22,
+    "editor.fontWeight": "400",
+    "terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
+    "workbench.editor.showTabs": "none",
+    "explorer.autoReveal": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "redhat.telemetry.enabled": true,
+    "remote.autoForwardPortsSource": "hybrid"
+}
